@@ -15,5 +15,10 @@ namespace dotNETtask4._2
                 throw new NotImplementedException();
             }
         }
+
+        public override void Draw()
+        {
+            Console.WriteLine("Рисуем шестиугольник");
+        }
     }
 }

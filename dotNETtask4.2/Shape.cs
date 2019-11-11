@@ -8,9 +8,6 @@ namespace dotNETtask4._2
 {
     abstract class Shape
     {
-        public virtual void Draw()
-        {
-            Console.WriteLine("Drawing Shape");
-        }
+        public abstract void Draw();
     }
 }

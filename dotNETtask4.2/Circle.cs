@@ -8,5 +8,9 @@ namespace dotNETtask4._2
 {
     class Circle : Shape
     {
+        public override void Draw()
+        {
+            Console.WriteLine("Рисуем круг");
+        }
     }
 }
