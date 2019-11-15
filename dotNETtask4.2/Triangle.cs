@@ -8,7 +8,10 @@ namespace dotNETtask4._2
 {
     class Triangle : Shape, IPoint
     {
-        public int Point => throw new NotImplementedException();
+        public int Point
+        {
+            get { return 3; }
+        }
 
         public override void Draw()
         {

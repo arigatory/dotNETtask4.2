@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace dotNETtask4._2
 {
-    class Sphere : Shape
+    class Sphere : Shape, IDrawable
     {
+        void IDrawable.Draw()
+        {
+            Console.WriteLine("Рисуем сферу явно");
+        }
+
         public override void Draw()
         {
-            Console.WriteLine("Рисуем сферу");
+            Console.WriteLine("Рисуем сферу неявно");
         }
     }
 }

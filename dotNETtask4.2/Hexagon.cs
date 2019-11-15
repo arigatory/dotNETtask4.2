@@ -10,10 +10,7 @@ namespace dotNETtask4._2
     {
         public int Point
         {
-            get
-            {
-                throw new NotImplementedException();
-            }
+            get { return 6; }
         }
 
         public override void Draw()
